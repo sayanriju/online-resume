@@ -1,15 +1,17 @@
 const ejs = require("ejs")
-const yamlReader = require("yaml-reader")
-const util = require('util');
+const readYaml = require("read-yaml")
+const util = require("util");
+const fs = require("fs");
 
-const writeFile = util.promisify(fs.writeFile);
+const writeFile = util.promisify(fs.writeFile)
+const readYamlAsync = util.promisify(readYaml)
 
 async function getData() {
   const [employments, projects, floss, general] = await Promise.all([
-    await yamlReader.readAsync("data/employments.yaml"),
-    await yamlReader.readAsync("data/projects.yaml"),
-    await yamlReader.readAsync("data/floss.yaml"),
-  	await yamlReader.readAsync("data/general.yaml"),
+    await readYamlAsync("data/employments.yml"),
+    await readYamlAsync("data/projects.yml"),
+    await readYamlAsync("data/floss.yml"),
+  	await readYamlAsync("data/general.yml"),
   ])
   return { employments, projects, floss, general }
 }

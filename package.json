@@ -4,12 +4,13 @@
   "description": "My Online Resume",
   "main": "index.js",
   "scripts": {
+    "build": "node $npm_package_main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sayan \"Riju\" Chakrabarti <s26c.sayan@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
-    "yaml-reader": "^0.4.0"
+    "read-yaml": "^1.1.0"
   }
 }
