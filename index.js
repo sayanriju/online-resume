@@ -1,10 +1,11 @@
 const ejs = require("ejs")
 const readYaml = require("read-yaml")
-const util = require("util");
-const fs = require("fs");
+const util = require("util")
+const fs = require("fs")
+const pdf = require("html-pdf")
 
-const writeFile = util.promisify(fs.writeFile)
 const readYamlAsync = util.promisify(readYaml)
+const writeFile = util.promisify(fs.writeFile)
 
 async function getData() {
   const [employments, projects, floss, general] = await Promise.all([
@@ -17,12 +18,27 @@ async function getData() {
 }
 
 async function hydrate(data) {
-  const html = await ejs.renderFile("templates/index.ejs", data, { async: true })
-  return html
+  const [html, pdfHtml] = await Promise.all([
+    ejs.renderFile("templates/index.ejs", data, { async: true }),
+    ejs.renderFile("templates/pdf.ejs", data, { async: true }),
+  ])
+  return { html, pdfHtml }
 }
 
-async function build(html) {
-  await writeFile("www/index.html", html)
+async function createPdfFile(html, filePath) {
+  return new Promise((resolve, reject) => {
+    pdf.create(html).toFile(filePath, function(err, res){
+      if (err) return reject(err)
+      return resolve(res.filename)
+    });
+  })
+}
+
+async function build({ html, pdfHtml }) {
+  await Promise.all([
+    writeFile("www/index.html", html),
+    createPdfFile(pdfHtml, "www/sayanriju-resume.pdf")
+  ])
   return "OK"
 }
 
@@ -30,5 +46,4 @@ async function build(html) {
 getData()
   .then(hydrate)
   .then(build)
-  .then(console.log)
-  .catch(console.log)
+  .then(console.log, console.log)
