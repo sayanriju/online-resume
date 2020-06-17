@@ -9,18 +9,18 @@ const writeFile = util.promisify(fs.writeFile)
 
 async function getData() {
   const [employments, projects, floss, general] = await Promise.all([
-    await readYamlAsync("data/employments.yml"),
-    await readYamlAsync("data/projects.yml"),
-    await readYamlAsync("data/floss.yml"),
-  	await readYamlAsync("data/general.yml"),
+    readYamlAsync("data/employments.yml"),
+    readYamlAsync("data/projects.yml"),
+    readYamlAsync("data/floss.yml"),
+  	readYamlAsync("data/general.yml"),
   ])
   return { employments, projects, floss, general }
 }
 
 async function hydrate(data) {
   const [html, pdfHtml] = await Promise.all([
-    ejs.renderFile("templates/index.ejs", data, { async: true }),
-    ejs.renderFile("templates/pdf.ejs", data, { async: true }),
+    ejs.renderFile("templates/index.ejs", { data }, { async: true }),
+    ejs.renderFile("templates/pdf.ejs", { data }, { async: true }),
   ])
   return { html, pdfHtml }
 }

@@ -14,7 +14,7 @@
 		<div class="reveal">
 			<div class="slides">
 			<% for (const section of ["welcome", "intro", "portfolio", "floss", "employment", "skills", "quali", "contact"]) { %>
-				<section id="<%= section %>"><%- await include(`partials/${section}`) %></section>
+				<section id="<%= section %>"><%- await include(`partials/${section}`, { data }) %></section>
 			<% } %>
 			</div>
 		</div>
