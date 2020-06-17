@@ -1,16 +1,32 @@
-<h1>Projects</h1>
-<% projects.forEach((x) => { %>
-	<ul><li><%= x %></li></ul>
-<% }) %>
-<h1>FLOSS</h1>
-<% floss.forEach((x) => { %>
-	<ul><li><%= x %></li></ul>
-<% }) %>
-<h1>Employments</h1>
-<% employments.forEach((x) => { %>
-	<ul><li><%= x %></li></ul>
-<% }) %>
-<h1>general</h1>
-<% general.forEach((x) => { %>
-	<ul><li><%= x %></li></ul>
-<% }) %>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sayan's Online Resume</title>
+
+		<link rel="stylesheet" href="assets/reset.css">
+		<link rel="stylesheet" href="assets/reveal.css">
+		<link rel="stylesheet" href="assets/theme/black.css" id="theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			<% for (const section of ["welcome", "intro", "portfolio", "floss", "employment", "skills", "quali", "contact"]) { %>
+				<section id="<%= section %>"><%- await include(`partials/${section}`) %></section>
+			<% } %>
+			</div>
+		</div>
+
+		<script src="assets/reveal.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+			});
+		</script>
+	</body>
+</html>
