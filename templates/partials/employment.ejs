@@ -1,0 +1,27 @@
+        <h2>Recent Employments</h2>
+        <br>
+        <% for (const employment of data.employments) { %>
+        <section id="" class="slide" data-transition="convex">
+          <table class="noborder">
+            <tr>
+              <td>Employer:</td>
+              <td><%= employment.employer %></td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td><%= employment.designation %></td>
+            </tr>
+            <tr>
+              <td>Duration:</td>
+              <td><%= employment.start %> - <%= employment.end || "Present" %></td>
+            </tr>
+          </table>
+          <hr>
+          <b style="text-align:left;float:left;">Responsibilities:</b>
+          <ul style="">
+            <% for (const responsibility of employment.responsibilities || []) { %>
+            <li><%=  responsibility %></li>
+            <% } %>
+          </ul>
+        </section>
+        <% } %>

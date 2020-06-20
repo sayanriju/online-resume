@@ -1,0 +1,25 @@
+<%
+function makeStars(stars, total = 5) {
+  const emptyStars = total - stars
+  return [...Array(stars).fill("★"), ...Array(emptyStars).fill("☆")].join("")
+}
+%>
+        <h2>SKILLSET</h2>
+        <br>
+        <table class="skillset">
+          <tr class="th">
+            <td>Skill Name</td>
+            <td>Last Used</td>
+            <td>Experience</td>
+            <td>Level</td>
+          </tr>
+          <% for (const skill of data.skills.sort((a, b) => b.stars - a.stars)) { %>
+          <tr>
+            <td><%= skill.name %></td>
+            <td><%= skill.lastused %></td>
+            <td><%= skill.experience %> years</td>
+            <td style="color: gold;"><%= makeStars(skill.stars) %></td>
+          </tr>
+          <% } %>
+        </table>
+      </section>
