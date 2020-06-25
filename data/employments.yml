@@ -1,3 +1,31 @@
- - Sarangtec Systems
- - Bookpocket
- - Logic Square
+- 
+  employer: Sarangtec Systems
+  start: 2012
+  end: 2015
+  designation: Lead Developer & Managing Partner
+  responsibilities:
+    - Developing Web Applications
+    - Web Design & Hosting Management
+    - Linux Consultancy
+    - Managerial inputs in day-to-day running of business
+-
+  employer: Bookpocket Publishers LLP
+  start: 2014
+  end: 2015
+  designation: CTO
+  responsibilities:
+    - Overseeing Typing, Formatting and Production of eBooks in Bengali (ePub format)
+    - Developing & Designing eCommerce web application for selling the ebooks
+    - Managerial inputs in day-to-day running of business
+
+-
+  employer: Logic Square Technologies Pvt Ltd
+  start: 2015
+  end: Present
+  designation: Lead Developer
+  responsibilities:
+    - Backend Development
+    - Inputs in System Architecture & Project Planning
+    - Managing the Team
+    - Mentoring
+    - Basic Devops

@@ -1,6 +1,6 @@
         <h2>Recent Employments</h2>
         <br>
-        <% for (const employment of data.employments) { %>
+        <% for (const employment of data.employments.sort((a, b) => a.start - b.start).reverse()) { %>
         <section id="" class="slide" data-transition="convex">
           <table class="noborder">
             <tr>

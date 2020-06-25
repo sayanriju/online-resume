@@ -8,11 +8,12 @@ const readYamlAsync = util.promisify(readYaml)
 const writeFile = util.promisify(fs.writeFile)
 
 async function getData() {
-  const [employments, projects, floss, skills] = await Promise.all([
+  const [employments, projects, floss, skills, general] = await Promise.all([
     readYamlAsync("data/employments.yml"),
     readYamlAsync("data/projects.yml"),
     readYamlAsync("data/floss.yml"),
     readYamlAsync("data/skills.yml"),
+    readYamlAsync("data/general.yml"),
   ])
   return { employments, projects, floss, skills }
 }
