@@ -1,3 +1,24 @@
- - Muktalekhaa
- - March Linux
- - Tiny Bash Server
+  - 
+    name: apidoc2postman
+    url: https://www.npmjs.com/package/@sayanriju/apidoc2postman
+    about: A npm package offering a CLI to auto-generate Postman Collection scaffolds from Apidoc documentation.
+  - 
+    name: Stripe Connect Functions
+    url: https://github.com/sayanriju/stripe-connect-functions
+    about: A npm package which provides a collection of functions to help with a Customers -> Marketplace -> Vendors Workflow using Stripe Connect.
+  - 
+    name: Express Skeleton
+    url: https://github.com/sayanriju/express-skeleton-2
+    about: A skeleton template for Express JS apps, with sane defaults. Serves as the starting point for all our projects at my current workplace.
+  - 
+    name: Muktalekhaa
+    url: https://code.google.com/p/muktalekhaa/
+    about: Bengali Phonetic Typing System. First of its kind for GNU/Linux platform.
+  - 
+    name: Tiny Bash Server
+    url: https://github.com/sayanriju/Tiny-Bash-Server
+    about:  A tiny http server which supports CGI like scripting in Bash
+  - 
+    name: March Linux
+    url: http://distrowatch.com/weekly.php?issue=20070813#waiting
+    about:  A home brewn "distrolet" of Arch Linux, focused on ease of installtion & use. Now defunct.

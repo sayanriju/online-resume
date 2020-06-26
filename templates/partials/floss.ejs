@@ -1,6 +1,6 @@
         <h2>Open Source Contributions</h2>
+        <ul>
         <% for (const project of data.floss) { %>
-        <section id="" class="slide" data-transition="concave">
-          <%= project %>
-        </section>
+          <li><a href="<%= project.url %>" target="_blank"><%= project.name %>: </a> <%= project.about %></li>
         <% } %>
+        </ul>
