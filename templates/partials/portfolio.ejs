@@ -1,6 +1,45 @@
-        <h2>Notable Projects</h2>
-        <% for (const project of data.projects) { %>
-        <section id="" class="slide" data-transition="concave">
-          <%= project %>
-        </section>
-        <% } %>
+<h2>Notable Projects</h2>
+<% for (const project of data.projects) { %>
+<section id="" class="slide" data-transition="concave">
+
+  <table class="noborder">
+    <tr>
+      <td>Project:</td>
+      <td>
+        <a href="<%= project.url %>" target="_blank">
+          <%= project.name %>&nbsp;&nbsp;
+          <i class="fa fa-external-link"></i>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Client:</td>
+      <td>
+        <%= project.client %>
+      </td>
+    </tr>
+    <tr>
+      <td>Technologies:</td>
+      <td>
+        <%= project.tech %>
+      </td>
+    </tr>
+    <tr>
+      <td>Role:</td>
+      <td>
+        <%= project.role %><br/>
+        <em>Team Size:</em> <%= project.teamsize %>
+      </td>
+    </tr>
+    <tr>
+      <td>Timeline:</td>
+      <td>
+        <%= project.timeline %>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <b style="text-align:left;float:left;">Synopsis:</b>
+  <p><%= project.about %></p>
+</section>
+<% } %>

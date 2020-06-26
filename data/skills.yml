@@ -1,20 +1,50 @@
 -
-  name: PHP
+  name: PHP/MySQL
   lastused: 2015
+  experience: 5
+  stars: 4
+-
+  name: Python
+  lastused: 2013
+  experience: 6
+  stars: 3
+-
+  name: Node JS
+  lastused: Present
+  experience: 6
+  stars: 4
+-
+  name: Express JS
+  lastused: Present
+  experience: 6
+  stars: 4
+-
+  name: MongoDB
+  lastused: Present
+  experience: 6
+  stars: 4
+-
+  name: Javascript
+  lastused: Present
+  experience: 10
+  stars: 4
+-
+  name: Linux & Shell Scripting
+  lastused: Present
+  experience: 14
+  stars: 5
+-
+  name: AWS
+  lastused: Present
+  experience: 1
+  stars: 2
+-
+  name: Basic DevOps
+  lastused: Present
   experience: 5
   stars: 3
 -
-  name: Python
-  lastused: 2017
-  experience: 7
+  name: Vue JS
+  lastused: Present
+  experience: 6
   stars: 4
--
-  name: Node JS
-  lastused: 2019
-  experience: 7
-  stars: 5
--
-  name: ZAB
-  lastused: 2019
-  experience: 7
-  stars: 5

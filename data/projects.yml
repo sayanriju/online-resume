@@ -1,4 +1,70 @@
- - Speedy
- - BarWars
- - Donate My Time
- - IIT Fundamanager
+-
+  name: Reach Suite
+  client: AlphaTec LLC, USA
+  about: A lead management SaaS product with ability to send Email, SMS, Direct Post Mail, and Ringless Voicemails to leads as part of a behavioural based triggered marketing sequence.
+  details: ""
+  url: https://www.logic-square.com/portfolio-reach-suite.html
+  tech: Express (Node), Mongo, Redis backed queues
+  role: Lead Developer - Project Planning & Management; System Architecture Design; Backend Coding; Deployment 
+  teamsize: 4+1
+  timeline: 2019-2020
+-   
+  name: Bar Wars
+  client: Sinq Hospitality, Goa, India
+  about: A game application for a bar that works similar to a stock exchange, controlling the prices of all drinks (instead of shares) depending on the demand for the same.
+  details: ""
+  url: https://www.logic-square.com/portfolio-barwars.html
+  tech: Express (Node), Mongo, Redis, Socket.io, Vue JS
+  role: Lead Developer - Project Planning & Deciding System Architecture; Coding the core game logic as NPM package; Coding the frontend interface for TV; Deployment
+  teamsize: 4+1
+  timeline: 2018-2019
+-
+  name: Repustream
+  client: AlphaTec LLC, USA
+  about: A user friendly all-in-one reputation management / marketing system for companies of all sizes leveraging customizable funnel based sequences.
+  details: ""
+  url: https://www.logic-square.com/portfolio-repustream.html
+  tech: Express (Node), Mongo, Twilio SDK
+  role: Lead Developer - Project Planning & Management; Backend Coding; Deployment 
+  teamsize: 3+1
+  timeline: 2019-2020
+-
+  name: Real Time Logistics Management Software
+  client: Speedy Gonzales, Singapore
+  about: A Real time Delivery tracking application
+  details: ""
+  url: https://www.logic-square.com/portfolio-speedy-gonzales.html
+  tech: Express (Node), Mongo, Redis - Geolocation & PubSub, Faye (Bayeux protocol) for RTC
+  role: Lead Developer - Project Planning; Backend Coding; Handling RealTime communications with Frontend apps; Deployment
+  teamsize: 2+1
+  timeline: 2018
+-
+  name: Fund Management Software
+  client: Dept of Chemical Engineering, IIT Kharagpur
+  about: A tool to manage budgets, department fund allotment and track research spends.
+  details: ""
+  url: https://www.logic-square.com/portfolio-smart-fund-manager.html
+  tech: Express (Node), Mongo, EJS, Vue Js
+  role: Project Planning; Full Stack Coding
+  teamsize: 1+1
+  timeline: 2018
+-
+  name: Donate My Time
+  client: DMT, Bengaluru, India
+  about: A platform for NGOs (non-profit organizations) to search & manage volunteers for different social benefit initiatives.
+  details: ""
+  url: https://www.logic-square.com/portfolio-donate-my-time.html
+  tech: Express (Node), Mongo, Vue JS, Faye (Bayeux protocol) for Real Time Chat
+  role: Project management; Coding the REST API in backend as well as the frontend hybrid app; Deployment
+  teamsize: 3+1
+  timeline: 2015-2016
+-
+  name: Real Estate Management Software
+  client: Excella Realtors Pvt Ltd
+  about: A complete & complex solution to manage customers, funds and plot allotment, along with agent commissions in a MLM structure. Is being used in production with minimal maintenance for almost a decade!
+  details: ""
+  url: http://excellarealtors.in
+  tech: Php (Codeigniter), MySQL
+  role: Single handedly managed the entire lifecycle from inception & coding to deployment & maintenance.
+  teamsize: 1
+  timeline: 2011-Present
