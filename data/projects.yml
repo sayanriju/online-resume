@@ -17,7 +17,7 @@
   tech: Express (Node), Mongo, Redis, Socket.io/Faye
   role: Lead Developer - Project planning; Backend coding - core + microservices; Deployment & maintenance
   teamsize: 3+1
-  timeline: Current Project
+  timeline: Ongoing
 -
   name: Reach Suite
   client: AlphaTec LLC, USA
@@ -36,7 +36,7 @@
   url: https://www.logic-square.com/portfolio-barwars.html
   tech: Express (Node), Mongo, Redis, Socket.io, Vue JS
   role: Lead Developer - Project Planning & Deciding System Architecture; Coding the core game logic as NPM package; Coding the frontend interface for TV; Deployment
-  teamsize: 4+1
+  teamsize: 3+1
   timeline: 2018-2019
 -
   name: Repustream
@@ -77,7 +77,7 @@
   tech: Express (Node), Mongo, Vue JS, Faye (Bayeux protocol) for Real Time Chat
   role: Project management; Coding the REST API in backend as well as the frontend hybrid app; Deployment
   teamsize: 3+1
-  timeline: 2015-2016
+  timeline: 2015-2017
 -
   name: Real Estate Management Software
   client: Excella Realtors Pvt Ltd
