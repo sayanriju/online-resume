@@ -6,10 +6,14 @@
     <tr>
       <td>Project:</td>
       <td>
+      <% if (project.url) { %>
         <a href="<%= project.url %>" target="_blank">
           <%= project.name %>&nbsp;&nbsp;
           <i class="fa fa-external-link"></i>
         </a>
+      <% } else { %>
+        <%= project.name %>
+      <% } %>
       </td>
     </tr>
     <tr>

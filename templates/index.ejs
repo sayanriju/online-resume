@@ -36,9 +36,22 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-			<% for (const section of ["welcome", "intro", "portfolio", "floss", "employment", "skills", "quali", "contact"]) { %>
-				<section id="<%= section %>"><%- await include(`partials/${section}`, { data }) %></section>
-			<% } %>
+				<section id="welcome" class="slide"><%- await include(`partials/welcome`, { data }) %></section>
+
+				<section id="intro" class="slide" data-transition="zoom" data-background="#011917" data-background-transition="zoom"><%- await include(`partials/intro`, { data }) %></section>
+
+				<section id="portfolio" class="slide"><%- await include(`partials/portfolio`, { data }) %></section>
+
+				<section id="floss" class="slide" data-transition="concave" data-background="#011917" data-background-transition="zoom"><%- await include(`partials/floss`, { data }) %></section>
+
+				<section id="employment" class="slide"><%- await include(`partials/employment`, { data }) %></section>
+
+				<section id="skills" class="slide" data-transition="convex" data-background="#071a07" data-background-transition="zoom"><%- await include(`partials/skills`, { data }) %></section>
+
+				<section id="soft" class="slide" data-transition="zoom" data-transition-speed="slow"><%- await include(`partials/soft`, { data }) %></section>
+
+				<section id="contact" class="slide" data-background="#071a07" data-background-transition="slide" data-transition="concave"><%- await include(`partials/contact`, { data }) %></section>
+
 			</div>
 		</div>
 

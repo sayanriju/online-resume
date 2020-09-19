@@ -5,7 +5,7 @@
   - 
     name: Stripe Connect Functions
     url: https://github.com/sayanriju/stripe-connect-functions
-    about: A npm package which provides a collection of functions to help with a Customers -> Marketplace -> Vendors Workflow using Stripe Connect.
+    about: A npm package of wrapper functions to help with a Customers -> Marketplace -> Vendors Workflow using Stripe Connect. Deprecated.
   - 
     name: Express Skeleton
     url: https://github.com/sayanriju/express-skeleton-2
@@ -17,7 +17,7 @@
   - 
     name: Tiny Bash Server
     url: https://github.com/sayanriju/Tiny-Bash-Server
-    about:  A tiny http server which supports CGI like scripting in Bash
+    about:  A tiny http server which supports CGI like scripting in Bash.
   - 
     name: March Linux
     url: http://distrowatch.com/weekly.php?issue=20070813#waiting

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node $npm_package_main",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "serve ./www"
   },
   "author": "Sayan \"Riju\" Chakrabarti <s26c.sayan@gmail.com>",
   "license": "MIT",

@@ -1,17 +1,37 @@
 -
+  name: Recruitech
+  client: Internal Project; Product
+  about: A full-featured Application Tracking System (ATS) presenting an innovative workflow to manage the entire recruitment process of our organization. Currently working on V2, which majorly improves on V1, with the target of making it available as a Saas Product.
+  details: ""
+  url: ""
+  tech: Express (Node), Mongo, Vue JS
+  role: Lead Developer - Project planning & conceptions, R&D; Backend coding; Deployment & maintenance
+  teamsize: 2+1
+  timeline: 2018-Present
+-
+  name: Aggconnect
+  client: US Based Client
+  about: Platform to enable Contractors to book Trucks for moving items from source to destination. Fleet Managers can bid for jobs and have Truck Drivers in their fleet to execute them. Provides for real time tracking of jobs at every phase.
+  details: ""
+  url: ""
+  tech: Express (Node), Mongo, Redis, Socket.io/Faye
+  role: Lead Developer - Project planning; Backend coding - core + microservices; Deployment & maintenance
+  teamsize: 3+1
+  timeline: Current Project
+-
   name: Reach Suite
   client: AlphaTec LLC, USA
-  about: A lead management SaaS product with ability to send Email, SMS, Direct Post Mail, and Ringless Voicemails to leads as part of a behavioural based triggered marketing sequence.
+  about: A CRM/Lead Management SaaS product with ability to send Email, SMS, Direct Post Mail, Slack Messages and Ringless Voicemails to leads as part of a behavioural based triggered marketing sequence.
   details: ""
   url: https://www.logic-square.com/portfolio-reach-suite.html
   tech: Express (Node), Mongo, Redis backed queues
-  role: Lead Developer - Project Planning & Management; System Architecture Design; Backend Coding; Deployment 
+  role: Lead Developer - Project Planning & Management; System Architecture Design; Backend Coding, including exposing a Developer Integration API; Deployment 
   teamsize: 4+1
   timeline: 2019-2020
 -   
   name: Bar Wars
   client: Sinq Hospitality, Goa, India
-  about: A game application for a bar that works similar to a stock exchange, controlling the prices of all drinks (instead of shares) depending on the demand for the same.
+  about: A real time gamification software for a bar that works similar to a stock exchange, controlling the prices of all drinks (instead of shares) depending on the demand for the same.
   details: ""
   url: https://www.logic-square.com/portfolio-barwars.html
   tech: Express (Node), Mongo, Redis, Socket.io, Vue JS
