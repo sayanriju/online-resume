@@ -1,4 +1,14 @@
 -
+  name: EVOS
+  client: GuROO LLC, USA
+  about: A network emulation software which allows enterprises, e-learning providers/centers, individuals and group collaborators to create virtual proof of concepts, solutions and training environments.
+  details: ""
+  url: ""
+  tech: Express (Node), Mongo, Redis, Socket.io/Faye
+  role: Lead Developer - Project planning & conceptions, R&D; Backend coding; Deployment & maintenance
+  teamsize: 4+1
+  timeline: 2020-Present (Ongoing)
+-
   name: Recruitech
   client: Internal Project; Product
   about: A full-featured Application Tracking System (ATS) presenting an innovative workflow to manage the entire recruitment process of our organization. Currently working on V2, which majorly improves on V1, with the target of making it available as a Saas Product.
@@ -17,7 +27,7 @@
   tech: Express (Node), Mongo, Redis, Socket.io/Faye
   role: Lead Developer - Project planning; Backend coding - core + microservices; Deployment & maintenance
   teamsize: 3+1
-  timeline: Ongoing
+  timeline: 2020-Present
 -
   name: Reach Suite
   client: AlphaTec LLC, USA
