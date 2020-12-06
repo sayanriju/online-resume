@@ -1,14 +1,4 @@
 -
-  name: PHP/MySQL
-  lastused: 2015
-  experience: 5
-  stars: 4
--
-  name: Python
-  lastused: 2013
-  experience: 6
-  stars: 3
--
   name: Node JS
   lastused: Present
   experience: 6
@@ -29,6 +19,16 @@
   experience: 10
   stars: 4
 -
+  name: Vue JS
+  lastused: Present
+  experience: 6
+  stars: 4
+-
+  name: PHP/MySQL
+  lastused: 2015
+  experience: 5
+  stars: 4
+-
   name: Linux & Shell Scripting
   lastused: Present
   experience: 14
@@ -44,7 +44,7 @@
   experience: 5
   stars: 3
 -
-  name: Vue JS
-  lastused: Present
+  name: Python
+  lastused: 2013
   experience: 6
-  stars: 4
+  stars: 3

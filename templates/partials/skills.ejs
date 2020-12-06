@@ -13,7 +13,7 @@ function makeStars(stars, total = 5) {
             <td>Experience</td>
             <td>Level</td>
           </tr>
-          <% for (const skill of data.skills.sort((a, b) => b.stars - a.stars)) { %>
+          <% for (const skill of data.skills) { %>
           <tr>
             <td><%= skill.name %></td>
             <td><%= skill.lastused %></td>
